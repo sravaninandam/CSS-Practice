@@ -1,0 +1,50 @@
+*{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sravani img{
+    background: linear-gradient(yellow,blue);
+    height: 250px;
+    width: 500px;
+}
+#sravani img
+{
+    height: 250px;
+    width: 250px;
+ 
+}
+/* p{
+    color: rgb(20, 20, 20);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+.sravani img,#sravani img
+{
+    height: 550px;
+    width: 500px;
+}
+
+.Sravs
+{
+    height: 450px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+.Sravs:hover{
+    color: blueviolet;
+    border: 10px solid red;
+   
+}
+
+.Sravs:hover{
+    transform: scale(0.9);
+    transition: .5s;
+    background: linear-gradient(to bottom,yellow,orange,red);
+    background-clip: text;
+    color: transparent;
+
+}
